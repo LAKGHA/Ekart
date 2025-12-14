@@ -21,3 +21,5 @@ echo -e "\nStart Docker container of the image ${IMAGE_NAME} with name ${CONTAIN
 docker run --rm -i -p ${PORT}:${PORT} \
     --name ${CONTAINER_NAME} \
     ${IMAGE_NAME}
+
+echo "test"
